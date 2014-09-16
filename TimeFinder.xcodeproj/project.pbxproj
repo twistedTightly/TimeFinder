@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A7A3B0919C7BE23000880EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7A3B0819C7BE23000880EE /* Foundation.framework */; };
+		6A7A3B0B19C7BE23000880EE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7A3B0A19C7BE23000880EE /* CoreGraphics.framework */; };
+		6A7A3B0D19C7BE23000880EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7A3B0C19C7BE23000880EE /* UIKit.framework */; };
+		6A7A3B1319C7BE23000880EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A7A3B1119C7BE23000880EE /* InfoPlist.strings */; };
+		6A7A3B1519C7BE23000880EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7A3B1419C7BE23000880EE /* main.m */; };
+		6A7A3B1919C7BE23000880EE /* TFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7A3B1819C7BE23000880EE /* TFAppDelegate.m */; };
+		6A7A3B1C19C7BE23000880EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A7A3B1A19C7BE23000880EE /* Main.storyboard */; };
+		6A7A3B1F19C7BE23000880EE /* TFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7A3B1E19C7BE23000880EE /* TFViewController.m */; };
+		6A7A3B2119C7BE23000880EE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A7A3B2019C7BE23000880EE /* Images.xcassets */; };
+		6A7A3B2819C7BE23000880EE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7A3B2719C7BE23000880EE /* XCTest.framework */; };
+		6A7A3B2919C7BE23000880EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7A3B0819C7BE23000880EE /* Foundation.framework */; };
+		6A7A3B2A19C7BE23000880EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7A3B0C19C7BE23000880EE /* UIKit.framework */; };
+		6A7A3B3219C7BE23000880EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A7A3B3019C7BE23000880EE /* InfoPlist.strings */; };
+		6A7A3B3419C7BE23000880EE /* TimeFinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7A3B3319C7BE23000880EE /* TimeFinderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A7A3B2B19C7BE23000880EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A7A3AFD19C7BE23000880EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A7A3B0419C7BE23000880EE;
+			remoteInfo = TimeFinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A7A3B0519C7BE23000880EE /* TimeFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A7A3B0819C7BE23000880EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6A7A3B0A19C7BE23000880EE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6A7A3B0C19C7BE23000880EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6A7A3B1019C7BE23000880EE /* TimeFinder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TimeFinder-Info.plist"; sourceTree = "<group>"; };
+		6A7A3B1219C7BE23000880EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A7A3B1419C7BE23000880EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A7A3B1619C7BE23000880EE /* TimeFinder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TimeFinder-Prefix.pch"; sourceTree = "<group>"; };
+		6A7A3B1719C7BE23000880EE /* TFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFAppDelegate.h; sourceTree = "<group>"; };
+		6A7A3B1819C7BE23000880EE /* TFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFAppDelegate.m; sourceTree = "<group>"; };
+		6A7A3B1B19C7BE23000880EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A7A3B1D19C7BE23000880EE /* TFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFViewController.h; sourceTree = "<group>"; };
+		6A7A3B1E19C7BE23000880EE /* TFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFViewController.m; sourceTree = "<group>"; };
+		6A7A3B2019C7BE23000880EE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6A7A3B2619C7BE23000880EE /* TimeFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A7A3B2719C7BE23000880EE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6A7A3B2F19C7BE23000880EE /* TimeFinderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TimeFinderTests-Info.plist"; sourceTree = "<group>"; };
+		6A7A3B3119C7BE23000880EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A7A3B3319C7BE23000880EE /* TimeFinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeFinderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A7A3B0219C7BE23000880EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A7A3B0B19C7BE23000880EE /* CoreGraphics.framework in Frameworks */,
+				6A7A3B0D19C7BE23000880EE /* UIKit.framework in Frameworks */,
+				6A7A3B0919C7BE23000880EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A7A3B2319C7BE23000880EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A7A3B2819C7BE23000880EE /* XCTest.framework in Frameworks */,
+				6A7A3B2A19C7BE23000880EE /* UIKit.framework in Frameworks */,
+				6A7A3B2919C7BE23000880EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A7A3AFC19C7BE23000880EE = {
+			isa = PBXGroup;
+			children = (
+				6A7A3B0E19C7BE23000880EE /* TimeFinder */,
+				6A7A3B2D19C7BE23000880EE /* TimeFinderTests */,
+				6A7A3B0719C7BE23000880EE /* Frameworks */,
+				6A7A3B0619C7BE23000880EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A7A3B0619C7BE23000880EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A7A3B0519C7BE23000880EE /* TimeFinder.app */,
+				6A7A3B2619C7BE23000880EE /* TimeFinderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A7A3B0719C7BE23000880EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A7A3B0819C7BE23000880EE /* Foundation.framework */,
+				6A7A3B0A19C7BE23000880EE /* CoreGraphics.framework */,
+				6A7A3B0C19C7BE23000880EE /* UIKit.framework */,
+				6A7A3B2719C7BE23000880EE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A7A3B0E19C7BE23000880EE /* TimeFinder */ = {
+			isa = PBXGroup;
+			children = (
+				6A7A3B1719C7BE23000880EE /* TFAppDelegate.h */,
+				6A7A3B1819C7BE23000880EE /* TFAppDelegate.m */,
+				6A7A3B1A19C7BE23000880EE /* Main.storyboard */,
+				6A7A3B1D19C7BE23000880EE /* TFViewController.h */,
+				6A7A3B1E19C7BE23000880EE /* TFViewController.m */,
+				6A7A3B2019C7BE23000880EE /* Images.xcassets */,
+				6A7A3B0F19C7BE23000880EE /* Supporting Files */,
+			);
+			path = TimeFinder;
+			sourceTree = "<group>";
+		};
+		6A7A3B0F19C7BE23000880EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A7A3B1019C7BE23000880EE /* TimeFinder-Info.plist */,
+				6A7A3B1119C7BE23000880EE /* InfoPlist.strings */,
+				6A7A3B1419C7BE23000880EE /* main.m */,
+				6A7A3B1619C7BE23000880EE /* TimeFinder-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A7A3B2D19C7BE23000880EE /* TimeFinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A7A3B3319C7BE23000880EE /* TimeFinderTests.m */,
+				6A7A3B2E19C7BE23000880EE /* Supporting Files */,
+			);
+			path = TimeFinderTests;
+			sourceTree = "<group>";
+		};
+		6A7A3B2E19C7BE23000880EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A7A3B2F19C7BE23000880EE /* TimeFinderTests-Info.plist */,
+				6A7A3B3019C7BE23000880EE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A7A3B0419C7BE23000880EE /* TimeFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A7A3B3719C7BE23000880EE /* Build configuration list for PBXNativeTarget "TimeFinder" */;
+			buildPhases = (
+				6A7A3B0119C7BE23000880EE /* Sources */,
+				6A7A3B0219C7BE23000880EE /* Frameworks */,
+				6A7A3B0319C7BE23000880EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeFinder;
+			productName = TimeFinder;
+			productReference = 6A7A3B0519C7BE23000880EE /* TimeFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A7A3B2519C7BE23000880EE /* TimeFinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A7A3B3A19C7BE23000880EE /* Build configuration list for PBXNativeTarget "TimeFinderTests" */;
+			buildPhases = (
+				6A7A3B2219C7BE23000880EE /* Sources */,
+				6A7A3B2319C7BE23000880EE /* Frameworks */,
+				6A7A3B2419C7BE23000880EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A7A3B2C19C7BE23000880EE /* PBXTargetDependency */,
+			);
+			name = TimeFinderTests;
+			productName = TimeFinderTests;
+			productReference = 6A7A3B2619C7BE23000880EE /* TimeFinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A7A3AFD19C7BE23000880EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TF;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Maribeth Rauh";
+				TargetAttributes = {
+					6A7A3B2519C7BE23000880EE = {
+						TestTargetID = 6A7A3B0419C7BE23000880EE;
+					};
+				};
+			};
+			buildConfigurationList = 6A7A3B0019C7BE23000880EE /* Build configuration list for PBXProject "TimeFinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A7A3AFC19C7BE23000880EE;
+			productRefGroup = 6A7A3B0619C7BE23000880EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A7A3B0419C7BE23000880EE /* TimeFinder */,
+				6A7A3B2519C7BE23000880EE /* TimeFinderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A7A3B0319C7BE23000880EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A7A3B2119C7BE23000880EE /* Images.xcassets in Resources */,
+				6A7A3B1319C7BE23000880EE /* InfoPlist.strings in Resources */,
+				6A7A3B1C19C7BE23000880EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A7A3B2419C7BE23000880EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A7A3B3219C7BE23000880EE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A7A3B0119C7BE23000880EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A7A3B1F19C7BE23000880EE /* TFViewController.m in Sources */,
+				6A7A3B1919C7BE23000880EE /* TFAppDelegate.m in Sources */,
+				6A7A3B1519C7BE23000880EE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A7A3B2219C7BE23000880EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A7A3B3419C7BE23000880EE /* TimeFinderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A7A3B2C19C7BE23000880EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A7A3B0419C7BE23000880EE /* TimeFinder */;
+			targetProxy = 6A7A3B2B19C7BE23000880EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A7A3B1119C7BE23000880EE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A7A3B1219C7BE23000880EE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6A7A3B1A19C7BE23000880EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A7A3B1B19C7BE23000880EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6A7A3B3019C7BE23000880EE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A7A3B3119C7BE23000880EE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A7A3B3519C7BE23000880EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6A7A3B3619C7BE23000880EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A7A3B3819C7BE23000880EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeFinder/TimeFinder-Prefix.pch";
+				INFOPLIST_FILE = "TimeFinder/TimeFinder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6A7A3B3919C7BE23000880EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeFinder/TimeFinder-Prefix.pch";
+				INFOPLIST_FILE = "TimeFinder/TimeFinder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6A7A3B3B19C7BE23000880EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TimeFinder.app/TimeFinder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeFinder/TimeFinder-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TimeFinderTests/TimeFinderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6A7A3B3C19C7BE23000880EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TimeFinder.app/TimeFinder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeFinder/TimeFinder-Prefix.pch";
+				INFOPLIST_FILE = "TimeFinderTests/TimeFinderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A7A3B0019C7BE23000880EE /* Build configuration list for PBXProject "TimeFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A7A3B3519C7BE23000880EE /* Debug */,
+				6A7A3B3619C7BE23000880EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A7A3B3719C7BE23000880EE /* Build configuration list for PBXNativeTarget "TimeFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A7A3B3819C7BE23000880EE /* Debug */,
+				6A7A3B3919C7BE23000880EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6A7A3B3A19C7BE23000880EE /* Build configuration list for PBXNativeTarget "TimeFinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A7A3B3B19C7BE23000880EE /* Debug */,
+				6A7A3B3C19C7BE23000880EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A7A3AFD19C7BE23000880EE /* Project object */;
+}
